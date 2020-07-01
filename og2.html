@@ -2,29 +2,34 @@
 <html lang="en">
 
 <head>
+    <script>
+        console.log("a")
+        var z = '<meta property="og:image" content="http://ziga.io/" />'
+        var l = document.head.querySelector('meta[property="og:image"]').attributes[1].value = "http://ziga.io/" 
+        console.log(l)
+        // z.appendTo('head');
+        // var f = document.querySelector('meta[property="og:image"]')
+        // f.attributes[1].value = "https://avatars.mds.yandex.net/get-zen-pub-og/2978046/pub_5ed79652dab262760c6da9c4_5ed8f6fe7cacad43f4028eb8/fb"
+        // console.log(f.attributes[1].value)
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta property="og:url" content="https://ternos.github.io/og/og2.html" />
+
     <meta property="og:site_name" content="OG Generator" />
     <meta property="og:type" content="website" />
     <meta property="twitter:title"
-        content="Понимают ли кроулеры js?" />
+    content="Понимают ли кроулеры js?" />
     <meta property="twitter:description"
-        content="29 июня 2020 Елена Гвоздева ответила: Когда девушка задает такой вопрос, она хочет понять, как Вы относитесь к ней." />
+    content="29 июня 2020 Елена Гвоздева ответила: Когда девушка задает такой вопрос, она хочет понять, как Вы относитесь к ней." />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="og:image"
-        content="" />
+    content="http://ogserver.io/FSAFfajnkjre12K/z" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 </head>
 
 <body>
-    <script>
-        var f = document.querySelector('meta[property="og:image"]')
-        f.attributes[1].value = "https://avatars.mds.yandex.net/get-zen-pub-og/2978046/pub_5ed79652dab262760c6da9c4_5ed8f6fe7cacad43f4028eb8/fb"
-        console.log(f.attributes[1].value)
-    </script>
     this will be a magic og generator
 </body>
 
